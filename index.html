@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | GitHub user search app</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div role="main" class="main-section">
+    <div class="heading-section">
+      <h1>devfinder</h1>
+      <div id="dark-mode-toggle" class="mode-section dark-mode-toggle" >
+        <h2 class="darkMode-text">DARK</h2>
+        <div id="sun-icon"></div>
+        <div class=" moon-icon"></div>
+      </div>
+    </div>
+    <div class="search-section">
+      <div class="input-search">
+        <img src="./assets/icon-search.svg" alt="search-img" class="search-icon">
+        <input type="text" id="usernameInput" placeholder="Search Github username..." class="search-value">
+      </div>
+      <div class="error-btn">
+        <p class="error-msg">No Results</p>
+        <button class="btn">Search</button>
+      </div>
+    </div>
+    <div class="result-container">
+    </div>
+  </div>
+</body>
+</html>
